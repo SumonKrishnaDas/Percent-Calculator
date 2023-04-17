@@ -16,7 +16,7 @@ const percentAmountString = percentField.value;
 const percentAmount=parseFloat(percentAmountString);
 const calculate= (percentAmount*inputAmount)/100;
 console.log(calculate);
-percentField.value=' '
+percentField.value='';
 
 const setup = document.getElementById('result');
 setup.innerText=calculate;
